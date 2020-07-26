@@ -13,6 +13,7 @@
 		8DE5D1AA24CD318E0072F187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DE5D1A824CD318E0072F187 /* Main.storyboard */; };
 		8DE5D1AC24CD31910072F187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DE5D1AB24CD31910072F187 /* Assets.xcassets */; };
 		8DE5D1AF24CD31910072F187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DE5D1AD24CD31910072F187 /* LaunchScreen.storyboard */; };
+		8DE5D1B724CD31B00072F187 /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 8DE5D1B624CD31B00072F187 /* Shader.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8DE5D1AB24CD31910072F187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DE5D1AE24CD31910072F187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DE5D1B024CD31910072F187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DE5D1B624CD31B00072F187 /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				8DE5D1A224CD318E0072F187 /* AppDelegate.swift */,
 				8DE5D1A424CD318E0072F187 /* SceneDelegate.swift */,
 				8DE5D1A624CD318E0072F187 /* ViewController.swift */,
+				8DE5D1B624CD31B00072F187 /* Shader.metal */,
 				8DE5D1A824CD318E0072F187 /* Main.storyboard */,
 				8DE5D1AB24CD31910072F187 /* Assets.xcassets */,
 				8DE5D1AD24CD31910072F187 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DE5D1B724CD31B00072F187 /* Shader.metal in Sources */,
 				8DE5D1A724CD318E0072F187 /* ViewController.swift in Sources */,
 				8DE5D1A324CD318E0072F187 /* AppDelegate.swift in Sources */,
 				8DE5D1A524CD318E0072F187 /* SceneDelegate.swift in Sources */,
